@@ -57,6 +57,7 @@ $(document).ready(function () {
     $(document).on("mousedown", function (event) {
       event.preventDefault();
       var key = event.button;
+        if(key == 3) console.log(event);
       $(".key" + key).removeClass("active");
       $(".key" + key).addClass("press");
     });

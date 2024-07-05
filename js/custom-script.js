@@ -429,6 +429,9 @@ $(document).ready(function () {
       case 44:
         return "Prt Sc";
         break;
+      default:
+        return e;
+        break;
     }
   }
   

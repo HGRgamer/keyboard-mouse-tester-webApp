@@ -430,7 +430,7 @@ $(document).ready(function () {
         return "Prt Sc";
         break;
       default:
-        return e;
+        return keyCode;
         break;
     }
   }
